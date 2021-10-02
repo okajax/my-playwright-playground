@@ -31,10 +31,10 @@ if (options.debug) {
   await sleep(2000);
   await page.screenshot({ path: "./screenshots/screenshot.png", fullPage: true });
 
-  const myPlan = await page.innerText(
+  const planName = await page.innerText(
     '//*[@id="header-container"]/li[3]/div/span/span'
   );
-  console.log(`Your plan is ${myPlan}`);
+  console.log(`Your plan is ${planName}`);
 
   await context.close();
   await browser.close();
