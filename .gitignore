@@ -1,3 +1,6 @@
+screenshots/*
+!screenshots/.gitkeep
+
 ### https://raw.github.com/github/gitignore/76512d9b96c7d868eb3f65acaa0445ce09efb787/Node.gitignore
 
 # Logs
